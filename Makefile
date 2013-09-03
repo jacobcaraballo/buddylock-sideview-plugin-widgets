@@ -7,11 +7,15 @@ include theos/makefiles/common.mk
 
 BUNDLE_NAME = widgets
 widgets_FILES = WidgetView.mm classes/WidgetsSortedListController.mm classes/WidgetCell.mm
+
+# make sure the path is "/Library/BuddyLock/SideViews"
+
 widgets_INSTALL_PATH = /Library/BuddyLock/SideViews
 widgets_FRAMEWORKS = UIKit Foundation CoreGraphics AVFoundation Social
 widgets_PRIVATE_FRAMEWORKS = Preferences Notes
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
+# make sure the path is "/Library/BuddyLock/SideViews"
 internal-stage::
 	$(ECHO_NOTHING)mkdir -p $(THEOS_STAGING_DIR)/Library/BuddyLock/SideViews$(ECHO_END)
