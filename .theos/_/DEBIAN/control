@@ -1,0 +1,10 @@
+Package: com.ba.buddylockwidgets
+Name: BuddyLock Widgets
+Depends: mobilesubstrate
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Jacob Caraballo
+Author: Jacob Caraballo
+Section: Tweaks
+Installed-Size: 8
