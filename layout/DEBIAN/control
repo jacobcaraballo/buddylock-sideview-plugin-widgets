@@ -1,0 +1,9 @@
+Package: com.buddylockwidgets.widgets
+Name: widgets for BuddyLock
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.ba.buddylock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: BuddyLock Sideview widgets plugin
+Maintainer: Jacob Caraballo
+Author: Jacob Caraballo
+Section: Tweaks
